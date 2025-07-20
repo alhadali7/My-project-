@@ -276,3 +276,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
 console.log('🚀 Ghaida Portfolio Website Loaded Successfully!');
 
+
+const hamburger = document.querySelector('.hamburger');
+const nav = document.querySelector('.navigation');
+
+hamburger.addEventListener('click', () => {
+    nav.classList.toggle('active');
+});
